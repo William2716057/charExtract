@@ -1,5 +1,5 @@
 #extract substring
-$string = Read-Host
+$string = Read-Host "Enter text"
 #extrancts from index[0] to index[1]
 $index0 = Read-Host
 $index1 = Read-Host
