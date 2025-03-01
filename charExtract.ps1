@@ -1,5 +1,7 @@
 #extract substring
 $string = Read-Host
 #extrancts from index[0] to index[1]
-$substring = $string.Substring(0, 6) 
+$index0 = Read-Host
+$index1 = Read-Host
+$substring = $string.Substring($index0, $index1) 
 Write-Host $substring
